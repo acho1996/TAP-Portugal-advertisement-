@@ -1,0 +1,98 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.frame{
+	position: absolute;
+	width: 970px !important;
+	height: 250px !important;
+	border: 1px solid black;
+	background: url("../images/Bali.jpg");
+	background-position: 65% 50%;
+	top: 50%;
+	left: 50%;
+/*	background-size: auto 100%;
+*/	background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo{
+	position: absolute;
+	width: 970px;
+	height: 250px;
+	background: url("../images/TAP_P.png");
+	background-position: 800px 70px;
+	background-size: auto 30%;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+.circleLogo{
+	position: absolute;
+	width: 970px;
+	height: 250px;
+	background: url("../images/logo1.png");
+	background-position: 10px 10px;
+	background-size: auto 30%;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+.circleLogo2{
+	position: absolute;
+	width: 970px;
+	height: 250px;
+	background: url("../images/logo2.png");
+	background-position: 15px 80px;
+	background-size: auto 30%;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+.circleLogo3{
+	position: absolute;
+	width: 970px;
+	height: 250px;
+	background: url("../images/logo3.png");
+	background-position: 90px 20px;
+	background-size: auto 23%;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+
+.text{
+  position: absolute;
+  font-size: 20px;
+  top: 60px;
+  left: 85px;
+  color: white;
+  width: 400px;
+  position: 100% 1000%;
+  opacity: 0;
+}
+
+.button{
+  position: absolute;
+  background-color: white;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  top: 160px;
+  left: 85px;
+  right: 10px;
+  opacity: 0;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
